@@ -8,5 +8,10 @@ def firstNum(num1):
 print(firstNum(5))
 
 print()
+def onnumbers():
+    for i in range(1000):
+        if firstNum(i):
+            print(i)
 
 
+onnumbers()
